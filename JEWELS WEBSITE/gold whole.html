@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tara|Silver </title>
+ 
+  <style>
+   
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background-color: #000000;
+  padding: 20px;
+  color: #fff;
+  font-size:xx-large;
+  margin: -10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(226, 183, 208);
+  font-family:monospace;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+
+.banner {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+
+.products {
+  padding: 50px;
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  margin: 20px;
+  text-align: left;
+  width: 300px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  margin-top: 10px;
+}
+
+.product p {
+  color: #777;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f7bfbf;
+  color: #180000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+footer {
+  background-color: #000000;
+  padding: 20px;
+  color: #e8f31e;
+  text-align: center;
+}
+*{
+  background-color: black;
+}
+
+h3{
+  color: #fff;
+}
+#cart {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em;
+    color: aliceblue;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 0.5em;
+}
+.gold{
+  color:rgb(221, 157, 186);
+  font-size: xx-large;
+  font-family: serif;
+ 
+}
+.silver{
+  color: silver;
+}
+.diamond{
+  color: rgb(214, 214, 214);
+}
+.platinum{
+  color: silver;
+}
+.jewel{
+  color: bisque;
+}
+*{
+    background-color: #000000;
+}
+.video-container {
+      position: relative;
+      width: 560px;
+      height: 315px;
+      left: 270px;
+      top: 50px;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+    }
+
+  </style>
+</head>
+<body>
+ 
+  <center><img src="D:\download\TARA JEWEL\taralogo.png" /> </center>
+  <center><header>
+    <nav>
+      <ul>
+        <li><a href="file:///D:/download/TARA%20JEWEL/tarajewels.html"><b><i>HOME</i></b></a></li>
+        <li><a href="file:///D:/download/TARA%20JEWEL/About.html" target="_blank">ABOUT </a></li>
+        <li><a href="file:///D:/download/TARA%20JEWEL/Collections.html" target="_blank">COLLECTIONS</a></li>
+        <li><a href="#">SAVINGS</a></li>
+        <li><a href="#">PAYMENT </a></li>
+        <li><a href="#">GOLD RATE</a></li>
+        <li><a href="file:///D:/download/TARA%20JEWEL/Registration.html">REGISTER</a></li>
+      </ul>
+    </nav>
+  </header></center>
+  <div class="video-container">
+    <iframe width="980" height="523" src="https://www.youtube.com/embed/-sDTtGHa62U" title="GRT Jewellers Wedding &amp; Celebration Collection 2017 - Tamil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  <section class="products">
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9fbc6861015173.5a607b3184aee.jpg" alt="error" width="900" height="400" /><br><br>
+    
+    
+    <H1 class="gold">Gold Necklaces</H1><br><br><br>
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-58981-585X575.jpg" alt="Product 1">
+      <P>$458.6</P>
+      <button onclick="addToCart('Design 1', 458.60)" class="btn">Add to Cart</button>
+    </div>
+    
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-58974-585X575.jpg" alt="Product 2">
+      
+      <P>$457.6</P>
+      <button onclick="addToCart('Design 2', 457.00)" class="btn">Add to Cart</button>
+
+    </div>
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-58958-585X575.jpg" alt="Product 1">
+      <P>$880.6</P>
+      <button onclick="addToCart('Design 3', 880.00)" class="btn">Add to Cart</button>
+
+    </div>
+    
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-58947-585X575.jpg" alt="Product 2">
+      <P>$560.6</P>
+      <button onclick="addToCart('Design 4', 560.00)" class="btn">Add to Cart</button>
+
+    </div><br><br>
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/10.png" alt="Product 1">
+      <P>$620.6</P>
+      
+      <button onclick="addToCart('Design 5', 620.00)" class="btn">Add to Cart</button>
+
+    </div>
+    
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/7-3.png" alt="Product 2">
+      
+      <P>$610.6</P>
+      <button onclick="addToCart('Design 6', 610.00)" class="btn">Add to Cart</button>
+
+    </div>
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/8-3.png" alt="Product 1">
+      <P>$410.6</P>
+      <button onclick="addToCart('Design 7', 410.00)" class="btn">Add to Cart</button>
+
+    </div>
+    
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/9-1.png" alt="Product 2">
+      <P>$560.6</P>
+      <button onclick="addToCart('Design 8', 560.00)" class="btn">Add to Cart</button>
+
+    </div><br><br>
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69213-585X575.jpg" alt="Product 1">
+      <P>$740.6</P>
+      
+      <button onclick="addToCart('Design 9', 740.00)" class="btn">Add to Cart</button>
+ 
+    </div>
+    
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69200-585X575.jpg" alt="Product 2">
+      
+      <P>$440.6</P>
+      <button onclick="addToCart('Design 10', 440.00)" class="btn">Add to Cart</button>
+
+    </div>
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69188-585X575.jpg" alt="Product 1">
+      <P>$580.6</P>
+      <button onclick="addToCart('Design 11', 580.00)" class="btn">Add to Cart</button>
+
+    </div>
+    
+    <div class="product">
+      <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69179-585X575.jpg" alt="Product 2">
+      <P>$350.6</P>
+      <button onclick="addToCart('Design 12', 350.00)" class="btn">Add to Cart</button>
+
+    </div><br><br>
+
+    <H1 class="gold">Gold Earrings</H1><br><br><br>
+    
+    <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28396-585X5753.jpg" alt="Product 1">
+              <P>$458.6</P>
+           <button onclick="addToCart('Design 13', 458.60)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28500-585x575.jpg" alt="Product 2">
+        <P>$457.6</P>
+        <button onclick="addToCart('Design 14', 457.00)" class="btn">Add to Cart</button>
+      </div>
+  
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28320-585X575.jpg" alt="Product 1">
+        <P>$880.6</P>
+        <button onclick="addToCart('Design 15', 880.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28389-585X575.jpg" alt="Product 2">
+        <P>$560.6</P>
+      <button onclick="addToCart('Design 16', 560.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+  
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/KHAZANA-DAY-1210837-585x575.jpg" alt="Product 1">
+        <P>$620.6</P>
+      
+      <button onclick="addToCart('Design 17', 620.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28513-585x575.jpg" alt="Product 2">
+        <P>$610.6</P>
+        <button onclick="addToCart('Design 18', 610.00)" class="btn">Add to Cart</button>
+      </div>
+  
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28509-585x575.jpg" alt="Product 1">
+        <P>$410.6</P>
+        <button onclick="addToCart('Design 19', 410.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28473-585x575.jpg" alt="Product 2">
+        <P>$560.6</P>
+        <button onclick="addToCart('Design 20', 560.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28490-585x575.jpg" alt="Product 1">
+        <P>$740.6</P>
+      
+      <button onclick="addToCart('Design 21', 740.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28438-585X575.jpg" alt="Product 2">
+        <P>$440.6</P>
+      <button onclick="addToCart('Design 22', 440.00)" class="btn">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28428-585X575.jpg" alt="Product 1">
+        <P>$580.6</P>
+        <button onclick="addToCart('Design 23', 580.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28410-585X575.jpg" alt="Product 2">
+        <P>$350.6</P>
+      <button onclick="addToCart('Design 24', 350.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+
+      <H1 class="gold">Gold Rings</H1><br><br><br>
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69292-585X575.jpg" alt="Product 1">
+        <P>$458.6</P>
+        <button onclick="addToCart('Design 25', 458.60)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69295-585x575.jpg" alt="Product 2">
+        
+        <P>$457.6</P>
+      <button onclick="addToCart('Design 26', 457.00)" class="btn">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69287-585X575.jpg" alt="Product 1">
+        <P>$880.6</P>
+      <button onclick="addToCart('Design 27', 880.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69285-585X575.jpg" alt="Product 2">
+        <P>$560.6</P>
+      <button onclick="addToCart('Design 28', 560.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+  
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69275-585x575.jpg" alt="Product 1">
+        <P>$620.6</P>
+      
+      <button onclick="addToCart('Design 29', 620.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69276-585x575.jpg" alt="Product 2">
+        
+        <P>$610.6</P>
+        <button onclick="addToCart('Design 30', 610.00)" class="btn">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69272-585x575.jpg" alt="Product 1">
+        <P>$410.6</P>
+        <button onclick="addToCart('Design 31', 410.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69267-585X575.jpg" alt="Product 2">
+        <P>$560.6</P>
+      <button onclick="addToCart('Design 32', 560.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69304-585x575.jpg" alt="Product 1">
+        <P>$740.6</P>
+      
+      <button onclick="addToCart('Design 33', 740.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69306-585x575.jpg" alt="Product 2">
+        
+        <P>$440.6</P>
+      <button onclick="addToCart('Design 34', 440.00)" class="btn">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69310-585x575.jpg" alt="Product 1">
+        <P>$580.6</P>
+      <button onclick="addToCart('Design 35', 580.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/khazana-day-69287-585X575.jpg" alt="Product 2">
+        <P>$350.6</P>
+        <button onclick="addToCart('Design 36', 350.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+
+
+      <H1 class="gold">Gold Bangles</H1><br><br><br>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day-28279-585X575.jpg" alt="Product 1">
+        <P>$457.6</P>
+        <button onclick="addToCart('Design 37', 457.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18235-585X575.jpg" alt="Product 2">
+        <P>$507.6</P>
+        <button onclick="addToCart('Design 38', 507.00)" class="btn">Add to Cart</button>
+      </div>
+  
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18225-585X575.jpg" alt="Product 1">
+        <P>$487.6</P>
+      <button onclick="addToCart('Design 39', 487.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18215-585X575.jpg" alt="Product 2">
+        <P>$607.6</P>
+      <button onclick="addToCart('Design 40', 607.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+  
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18205-585X575.jpg" alt="Product 1">
+        <P>$407.6</P>
+      <button onclick="addToCart('Design 41', 407.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18193-585XX575.jpg" alt="Product 2">
+        <P>$567.6</P>
+      <button onclick="addToCart('Design 42', 567.00)" class="btn">Add to Cart</button>
+      </div>
+  
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18169-585X575.jpg" alt="Product 1">
+        <P>$607.6</P>
+      <button onclick="addToCart('Design 43', 607.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18159-585X575.jpg" alt="Product 2">
+        <P>$527.6</P>
+      <button onclick="addToCart('Design 44', 527.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18136-585X575.jpg" alt="Product 1">
+        <P>$526.6</P>
+      <button onclick="addToCart('Design 45', 526.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18061-585X575.jpg" alt="Product 2">
+        <P>$457.6</P>
+        <button onclick="addToCart('Design 46', 457.00)" class="btn">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day18036-585X575.jpg" alt="Product 1">
+        <P>$486.6</P>
+        <button onclick="addToCart('Design 47', 486.00)" class="btn">Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://www.khazanajewellery.com/wp-content/uploads/2016/06/Khazana-day17959-585X575.jpg" alt="Product 2">
+        <P>$325.6</P>
+      <button onclick="addToCart('Design 48', 325.00)" class="btn">Add to Cart</button>
+      </div><br><br>
+
+
+    
+    
+    
+  </section>
+  <div id="cart">
+    <center> <h2 style="text-align: center;font-size: xx-large;">Shopping Cart</h2><br></center>
+    <center> <ul id="cart-items"></ul><br></center>
+     <center> <p>Total: $<span id="cart-total">0.00</span></p></center>
+      <center><a href="file:///D:/download/TARA%20JEWEL/Registration.html"><button class="btn">Submit</button> </a></center>
+  </div>
+  <footer>
+    <p>&copy; TARA JEWEL PVT LTD.2023</p>
+  </footer>
+  <script src="script.js">
+    
+ </script>
+</body>
+</html>
